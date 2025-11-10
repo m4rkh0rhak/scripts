@@ -1,7 +1,7 @@
 Import-Module ActiveDirectory
 
 # Path to your CSV file
-$Users = Import-Csv -Path "C:\Users\Administrator\Downloads\aduser_importcsv.ps1"
+$Users = Import-Csv -Path "C:\Users\Administrator\Downloads\adusers.csv"
 
 # Base OU path
 $BaseOU = "OU=Users,OU=THLAB,DC=cyb3rr00kie,DC=lab"
